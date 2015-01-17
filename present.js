@@ -18,6 +18,7 @@ function showSlide() {
     figlet(slides[currentSlide], function (err, data) {
         cursor.goto(0, 0).write(data);
     });
+    cursor.goto(0, process.stdout.rows).write(currentSlide + 1 + ' / ' + slides.length);
 }
 
 function clearScreen() {
@@ -50,6 +51,8 @@ if (process.stdout.isTTY) {
         if (key && ((key.ctrl && key.name == 'c') || (key.name == 'escape') || (key.name == 'q'))) {
             process.stdin.pause();
             cursor.reset();
+            cursor.goto(0, process.stdout.columns);
+            console.log('\nBye!');
         }
         else if (key && key.name == 'left') {
             previousSlide();
