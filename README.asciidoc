@@ -4,6 +4,12 @@ Your new best (and nerdy) presentation tool. You'll use nothing else.
 
 == Usage
 
+* Checkout this repository
+* `npm install`
+* install graphicsmagick (see below)
+* `node present.js presentation.ascii`
+* use arrows (left, right) to navigate, esc/q/ctrl-c to exit
+
 === Images
 
 If you want to show images please install graphicsmagick
