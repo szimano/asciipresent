@@ -1,0 +1,31 @@
+{
+  "name": "asciipresent",
+  "version": "1.0.0",
+  "description": "Make ASCII-art presentations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szimano/asciipresent"
+  },
+  "keywords": [
+    "asciiart",
+    "presentation",
+    "javascript",
+    "js"
+  ],
+  "author": "szimano",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/szimano/asciipresent/issues"
+  },
+  "homepage": "https://github.com/szimano/asciipresent",
+  "dependencies": {
+    "ansi": "^0.3.0",
+    "commander": "^2.6.0",
+    "figlet": "^1.1.0",
+    "keypress": "^0.2.1"
+  }
+}
