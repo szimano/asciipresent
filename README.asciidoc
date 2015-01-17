@@ -1,0 +1,19 @@
+= AsciiPresent
+
+Your new best (and nerdy) presentation tool. You'll use nothing else.
+
+== Usage
+
+=== Images
+
+If you want to show images please install graphicsmagick
+
+ # Ubuntu
+ $ sudo apt-get install graphicsmagick
+
+ # OS X
+ $ brew install graphicsmagick
+
+ # Chocolatey (package manager for Windows)
+ # (Restart of cmd/PowerShell is required)
+ $ choco install graphicsmagick
