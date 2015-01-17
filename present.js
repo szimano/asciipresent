@@ -32,7 +32,6 @@ function showSlide() {
     clearScreen();
     if (slides[currentSlide].indexOf('IMAGE') == 0) {
         var image = slides[currentSlide].substring('IMAGE'.length).trim();
-        console.log(image);
         ImageToAscii(image, function(err, result){
             if (err) {
                 console.log(err);
