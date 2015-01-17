@@ -4,7 +4,7 @@ Your new best (and nerdy) presentation tool. You'll use nothing else.
 
 == Usage
 
-* Checkout this repository
+* Clone this repository
 * `npm install`
 * install graphicsmagick (see below)
 * `node present.js presentation.ascii`
